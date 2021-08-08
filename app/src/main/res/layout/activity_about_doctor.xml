@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_AboutDoctor">
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/roundbackg_first"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr Aslaaf Shaikh"
+            android:textColor="@color/whitecustom"
+            android:textSize="24sp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="140dp"
+            android:layout_marginBottom="3dp"
+            />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img_doctorimage"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUMS, MD(medicine)"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="-47dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education :"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUMS(Bachelor of unani medicine and surgery)\nPassed in 2009\nAGUMC, Akkalkuwa (MH)
+                                \n\nM.D.(Medicine)\nPassed in 2013\nZVM Unani Medical College, Pune (MH)"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience :"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ex. Associate Professor\nAl-Farooque Unani medical college\nIndore (MP)\n2013-2020
+                                \n\nProfessor\nAGUMC, Akkalkuwa (MH)\n2021-now
+                                    \n\nOPD, IPD and Teaching\n12 Years"
+        android:textColor="@color/gray"
+        android:textSize="14sp"
+        android:fontFamily="@font/nunito_semibold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact :"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_callAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/png_contactust"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_whatsAppAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/png_whatsappt"
+            android:layout_gravity="center_vertical"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_gmailAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/png_gmailt"
+            android:layout_gravity="center_vertical"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_instaAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/png_instagramt"
+            android:layout_gravity="center_vertical"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp"
+            />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/roundbackg_first"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Education"
+            android:textColor="@color/whitecustom"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="BUMS\n(Bachelor of unani medicine and surgery)\nPassed in 2009\nAGUMC, Akkalkuwa (MH)\n\nM.D.(Medicine)\nPassed in 2013\nZVM Unani Medical College, Pune (MH)"
+            android:textColor="@color/whitecustom"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Experience"
+            android:textColor="@color/whitecustom"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="Ex. Associate Professor\nAl–Farooque Unani medical college Indore (MP)\n2013-2020\n\nProfessor\nAGUMC, Akkalkuwa (MH)\n2021-now\n\nOPD, IPD and Teaching\n12 Years"
+            android:textColor="@color/whitecustom"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/img_doctorimage"
+        app:civ_border_width="10dp"
+        app:civ_border_color="@color/green"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintHorizontal_bias="0.1"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Contact"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_callAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/png_contactust"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_whatsAppAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/png_whatsappt"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_gmailAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/png_gmailt"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_instaAboutDoc"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/png_instagramt"
+            app:civ_border_color="@color/green"
+            app:civ_border_width="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="BUMS, MD(medicine)"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Dr Aslaaf Shaikh"
+        android:textColor="@color/green"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

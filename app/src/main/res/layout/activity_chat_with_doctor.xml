@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_chatWithDoctor">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_backbtnpharmacy"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_backarrowwhite"
+        app:civ_border_color="@color/green"
+        app:civ_border_width="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_extrabold"
+        android:text="Dr Aslaaf Shaikh"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_backbtnpharmacy"
+        app:layout_constraintEnd_toStartOf="@+id/img_sortpharmacy"
+        app:layout_constraintStart_toEndOf="@+id/img_backbtnpharmacy"
+        app:layout_constraintTop_toTopOf="@+id/img_sortpharmacy" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_sortpharmacy"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_cartpharmacy"
+        app:layout_constraintTop_toTopOf="parent"
+        app:civ_border_color="@color/green"
+        app:civ_border_width="7dp"
+        android:src="@mipmap/ic_micwhite_person" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_cartpharmacy"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        app:civ_border_color="@color/green"
+        app:civ_border_width="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/ic_imagewhite" />
+
+    <EditText
+        android:id="@+id/edttxt_typeMessageField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxHeight="110dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:hint="type message here..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sendMessage"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_sendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/roundbackg_first"
+        android:text="Send"
+        android:textSize="12sp"
+        android:fontFamily="@font/nunito_extrabold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edttxt_typeMessageField" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView_chats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbackg_first"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/edttxt_typeMessageField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

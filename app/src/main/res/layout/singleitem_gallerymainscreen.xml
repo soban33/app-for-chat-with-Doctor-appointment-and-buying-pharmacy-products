@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/img_gallerysingleimage"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:src="@drawable/img_maintop_backg"
+        android:scaleType="fitXY"
+        android:background="@drawable/roundbackg_first"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="3dp"
+        />
+
+</LinearLayout>

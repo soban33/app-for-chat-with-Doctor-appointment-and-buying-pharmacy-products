@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748810344307",
+    "project_id": "draslaafun",
+    "storage_bucket": "draslaafun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748810344307:android:1dd608802a217b7a46d706",
+        "android_client_info": {
+          "package_name": "com.soban.draslaafun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748810344307-524lh73vpk80j2a5oa4laqrvqjvodh65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEg-JsUF0CYraAQeEH6a57vmIh7ZANYwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748810344307-524lh73vpk80j2a5oa4laqrvqjvodh65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
